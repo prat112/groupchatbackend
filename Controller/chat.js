@@ -78,7 +78,7 @@ exports.getChats=async(req,res,next)=>{
         res.json({chat:chatAr,userId})
     }catch(err){
         console.log(err)
-        res.status(401).json({error:"Something went wrong"})
+        res.status(401).json({error:"Something went wrong"});
     }
     
 }

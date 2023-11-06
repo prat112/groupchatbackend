@@ -2,7 +2,7 @@ const inputEmail=document.getElementById('input-email')
 const inputPassword=document.getElementById('input-password')
 const labelStatus=document.getElementById('status-label')
 
-const baseUrl='http://localhost:3100/'
+const baseUrl='http://54.167.22.93:3100/'
 
 document.getElementById('form-login').addEventListener('submit',async event=>{
     labelStatus.textContent=''

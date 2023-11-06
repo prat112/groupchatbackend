@@ -22,7 +22,7 @@ const labelFileStatus=document.getElementById('file-label-status')
 const myMessageClass='message even'
 const otherMessageClass='message odd'
 
-const baseUrl='http://localhost:3100/'
+const baseUrl='http://54.167.22.93:3100/'
 const OBJ={firstTime:false,id2Get:-1}
 
 
